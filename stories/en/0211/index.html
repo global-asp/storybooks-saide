@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks South Africa is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in isiZulu, Xhosa, Afrikaans, English, Sepedi, Setswana, Sesotho, Xitsonga, siSwati, Venda, Southern Ndebele, as well as the most widely spoken other languages of South Africa.
 ">
 	<link rel="stylesheet" href="/storybooks-southafrica/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-southafrica/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-southafrica/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-southafrica/stories/en/0211/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks South Africa" href="/storybooks-southafrica">
 	<script src="/storybooks-southafrica/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -81,18 +84,17 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
 			<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-southafrica/css/pencil.svg" alt="Written by"></span> Alice Nakasango</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-southafrica/css/art.svg" alt="Illustrated by"></span> Marleen Visser</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-southafrica/css/global.svg" alt="Translated by"></span> Cornelius Wambi Gulere</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-southafrica/css/megaphone.svg" alt="Read by"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-southafrica/css/language.svg" alt="Language"></span> <a href="/storybooks-southafrica/stories/en">English</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-southafrica/css/level.svg" alt="Level"></span> <a href="/storybooks-southafrica/stories/en/level4">Level 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-southafrica/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0211/en-0211_goat.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/pencil.svg" alt="Written by"></span> Alice Nakasango</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/art.svg" alt="Illustrated by"></span> Marleen Visser</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/global.svg" alt="Translated by"></span> Cornelius Wambi Gulere</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/megaphone.svg" alt="Read by"></span> Darshan Soni</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/language.svg" alt="Language"></span> <a href="/storybooks-southafrica/stories/en">English</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/level.svg" alt="Level"></span> <a href="/storybooks-southafrica/stories/en/level4">Level 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
 	</div>
 </div>
 <hr>
@@ -104,7 +106,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Once upon a time, there was a goat called Igodhoobe. Igodhoobe the goat was the king of farm animals and birds. He lived a good life. One day, Igodhoobe the goat called all the animals and birds to a meeting.
@@ -113,8 +115,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -132,7 +133,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	“My friends, I have called you because I had a dream,” said Igodhoobe the king. All the animals and birds kept quiet. They listened to their king carefully.
@@ -141,8 +142,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -160,7 +160,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	“I dreamed that there was no food or water left in the land. Many of our relatives died!” said Igodhoobe the king. When the animals and the birds heard the dream, they were worried. “What shall we do?” asked the cat.
@@ -169,8 +169,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -188,7 +187,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The hen and the duck had an idea. They said, “Let each one of us bring food and put it in the king’s store.” All the animals agreed with this idea.
@@ -197,8 +196,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -216,7 +214,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Igodhoobe the king made a rule. He said, “Get ropes. Tie up anyone who does not bring food to my store. Then carry him to me.”
@@ -225,8 +223,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -244,7 +241,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Soon after this, it was time for a new king to rule over the farm. All the animals and birds met and elected the cat as their new king.
@@ -253,8 +250,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -272,7 +268,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	But Igodhoobe the goat refused to agree that the cat was king. “I’m the king. There is no other king. I can’t obey any other animal,” said Igodhoobe the goat.
@@ -281,8 +277,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -300,7 +295,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The animals took food to the new king’s store. But Igodhoobe the goat did not take anything. “When Igodhoobe the goat was king, we all obeyed him. Now he does not want to obey our new king. What shall we do to him?” asked the cow.
@@ -309,8 +304,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -328,7 +322,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	All the domestic animals and birds were angry. “He thinks he is different to us,” they all muttered.
@@ -337,8 +331,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -356,7 +349,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The dog said, “I helped him when he was king. I did not sleep at night. I was always with him, ready to help.”
@@ -365,8 +358,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -384,7 +376,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The sheep said, “I gave him my wool to cover his children.”
@@ -393,8 +385,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -412,7 +403,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The pig said, “When he was king, he told his friends that I eat a lot. But I was often in his garden digging and weeding his maize and millet.”
@@ -421,8 +412,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -440,7 +430,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The sheep asked, “What did he say? That you eat a lot? Did he think that he will be king forever?” Then the sheep added, “Let him understand that he is not king any more. I don’t know why he thinks he is so important.”
@@ -449,8 +439,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/14.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -468,7 +457,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	All the animals laughed and agreed that Igodhoobe the goat must take food to the new king. King Cat ordered Igodhoobe to come to him.
@@ -477,8 +466,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/15.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -496,7 +484,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	When the animals went to fetch Igodhoobe the goat, he was sitting on a chair with his legs crossed. The cow told Igodhoobe what the new king said. “I shall not go to the cat. There is no other king except me. When you become a king, you are always a king,” replied Igodhoobe the goat.
@@ -505,8 +493,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/16.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -524,7 +511,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	“We will tie you with ropes and take you to the new king,” said the sheep.
@@ -533,8 +520,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text18" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/17.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -552,7 +538,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	So the cow tied Igodhoobe the goat to her tail. She then pulled Igodhoobe to the king. The sheep, the duck, the dog, the pig, and the cock cheered as the cow pulled the goat. They all shouted together, “Take this stubborn goat to our new king!”
@@ -561,8 +547,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text17" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text19" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio18" onended="resetbutton('18')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/18.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton18" onclick="playpause('18')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -580,7 +565,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	From that time, every goat refuses to move when it is pulled. It thinks that you are taking it to the king’s court.
@@ -589,8 +574,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text18" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio19" onended="resetbutton('19')" src="https://globalstorybooks.net/media/audio/en/0211/mp3/19.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton19" onclick="playpause('19')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
@@ -631,6 +615,8 @@
 	<a class="btn btn-lg" href="/storybooks-southafrica/stories/en" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
