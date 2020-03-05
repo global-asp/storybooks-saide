@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-southafrica/apple-touch-icon.png?v=3">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-southafrica/favicon-32x32.png?v=3">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-southafrica/favicon-16x16.png?v=3">
-	<link rel="manifest" href="/storybooks-southafrica/site.webmanifest?v=3">
-	<link rel="mask-icon" href="/storybooks-southafrica/safari-pinned-tab.svg?v=3" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-southafrica/favicon.ico?v=3">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-southafrica/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-southafrica/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-southafrica/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-southafrica/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-southafrica/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-southafrica/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>Big blue bus - Storybooks South Africa</title>
 	<meta name="description" content="Storybooks South Africa is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in isiZulu, Xhosa, Afrikaans, English, Sepedi, Setswana, Sesotho, Xitsonga, siSwati, Venda, Southern Ndebele, as well as the most widely spoken other languages of South Africa.
@@ -20,12 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-southafrica/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-southafrica/stories/en/0276/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks South Africa" href="/storybooks-southafrica">
-	<script src="/storybooks-southafrica/js/sbc.js"></script>
+	<script src="/storybooks-southafrica/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,15 +47,14 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Download PDF</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
 		<option selected="" disabled="">Change language</option>
-		<option value="/storybooks-southafrica/stories/zu/0276">isiZulu / Zulu</option>
-		<option value="/storybooks-southafrica/stories/xh/0276">Xhosa</option>
+		<option value="/storybooks-southafrica/stories/zu/0276">isiZulu</option>
+		<option value="/storybooks-southafrica/stories/xh/0276">isiXhosa</option>
 		<option value="/storybooks-southafrica/stories/af/0276">Afrikaans</option>
-		<option value="/storybooks-southafrica/stories/en/0276">English</option>
 		<option value="/storybooks-southafrica/stories/nso/0276">Sepedi / Northern Sotho</option>
 		<option value="/storybooks-southafrica/stories/tn/0276">Setswana / Tswana</option>
 		<option value="/storybooks-southafrica/stories/st/0276">Sesotho / Southern Sotho</option>
@@ -65,11 +62,6 @@
 		<option value="/storybooks-southafrica/stories/ss/0276">siSwati / Swazi</option>
 		<option value="/storybooks-southafrica/stories/ve/0276">Tshivenda / Venda</option>
 		<option value="/storybooks-southafrica/stories/nr/0276">Southern Ndebele</option>
-		<option disabled="">───────</option>
-		<option value="/storybooks-southafrica/stories/de/0276">German</option>
-		<option value="/storybooks-southafrica/stories/gu/0276">Gujarati</option>
-		<option value="/storybooks-southafrica/stories/hi/0276">Hindi</option>
-		<option value="/storybooks-southafrica/stories/pt/0276">Portuguese</option>
 	</select>
 </div>
 
@@ -79,14 +71,16 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/sbza-imagebank/master/0276/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Big blue bus</span>
-			<span class="l1">Groot Blou Bus</span>
-			<span class="l2">Big blue bus</span>
+			<span class="l1">Ibhasi Enkulu Eluhlaza Okwe Sibhakabhaka</span>
+			<span class="l2">Ibhasi Enkulu Ezuba</span>
+			<span class="l3">Groot Blou Bus</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-			<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+			<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+			<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+			<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/pencil.svg" alt="Written by"></span> Mecelin Kakoro</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/art.svg" alt="Illustrated by"></span> Mango Tree</h3>
@@ -94,11 +88,13 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/language.svg" alt="Language"></span> <a href="/storybooks-southafrica/stories/en">English</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/level.svg" alt="Level"></span> <a href="/storybooks-southafrica/stories/en/level2">Level 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
+
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/sbza-imagebank/master/0276/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 	There was only
@@ -109,14 +105,13 @@ It was very noisy.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Daar is net een bus in Ebei se dorpie. Dit is groot en blou. Dit raas baie.
+	Yayiyodwa ibhasi edolobheni lika-Ebei. Yayinkulu futhi iluhlaza okwesibhakabhaka. Yayinomsindo omkhulu.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	There was only
-one bus in
-Ebei’s village.
-It was big and blue.
-It was very noisy.
+	Kwakukho ibhasi enye jwi elalilini ka-Ebei. Yayinkulu kwaye izuba ngombala. Yayingxola kakhulu.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Daar is net een bus in Ebei se dorpie. Dit is groot en blou. Dit raas baie.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -125,8 +120,9 @@ It was very noisy.
 		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -144,14 +140,13 @@ your school uniform.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Eendag sê Ebei se ma, “Môre gaan ons stad toe om jou skoolklere te koop.”
+	Ngelinye ilanga umama ka-Ebei wathi, “Kusasa sizokuya edolobheni siyothenga umfaniswano wakho.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	One day, Ebei’s
-mother said,
-“Tomorrow we will
-go to town to buy
-your school uniform.”
+	Ngenye imini umama ka-Ebei wathi, “Kusasa ngomso sizokuya edolophini siyokuthenga iyunifomu yakho.”
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Eendag sê Ebei se ma, “Môre gaan ons stad toe om jou skoolklere te koop.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -160,8 +155,9 @@ your school uniform.”
 		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -180,15 +176,13 @@ that night.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei is baie bly. Hulle sal met die groot blou bus ry.
+	U-Ebei wajabula kakhulu. Babezohamba ngebhasi enkulu eluhlaza okwesibhakabhaka. Kwakungavumi ukuba alale ebusuku.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei was very excited.
-They would travel
-in the big blue
-bus.
-He could not sleep
-that night.
+	U-Ebei wavuya kakhulu. Babeza kuhamba ngebhasi enkulu ezuba ngombala. Wayengakwazi ukulala ebusuku luvuyo.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei is baie bly. Hulle sal met die groot blou bus ry.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -197,8 +191,9 @@ that night.
 		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -215,13 +210,13 @@ wake him.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei is alreeds aangetrek toe sy ma hom kom wakker maak.
+	U-Ebei wayesevele esegqokile lapho umama wakhe engena ezomvusa.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei was already
-dressed when his
-mother came to
-wake him.
+	Wayesele enxibile ngelixa umama wakhe engena ezokumvusa.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei is alreeds aangetrek toe sy ma hom kom wakker maak.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -230,8 +225,9 @@ wake him.
 		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -251,16 +247,13 @@ did not come.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei en sy ma stap na die bushalte. Hulle wag vir die groot blou bus.
+	U-Ebei nomama wakhe baya esitobhini. Balindela ibhasi enkulu eluhlaza okwesibhakabhaka. Kodwa ibhasi ayizange ifike.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei and his mother
-walked to the
-bus stop.
-They waited for
-the big blue bus.
-But the bus
-did not come.
+	U-Ebei nomama wakhe baya esitophini sebhasi. Balinda ibhasi enkulu embala uzuba. Kodwa ibhasi ayizange ifike.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei en sy ma stap na die bushalte. Hulle wag vir die groot blou bus.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -269,8 +262,9 @@ did not come.
 		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -291,17 +285,13 @@ they asked.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ander mense kom wag ook by die bushalte.
+	Abanye abantu bafika esitobhini. Babekhononda ngoba ibhasi yayingasigcinanga isikhathi. “Ngabe ibhasi isishiyile?” Babebuza.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Other people arrived
-at the bus stop.
-They complained
-because the bus
-was late.
-“Has the bus
-left us?”
-they asked.
+	Abanye abantu bafika nabo esitophini. Babekhalaza kuba ibhasi yayingalibambanga ixesha layo. “Ingaba ibhasi isishiyile?” Babebuza.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ander mense kom wag ook by die bushalte.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -310,8 +300,9 @@ they asked.
 		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -330,15 +321,13 @@ he thought.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei is bekommerd.
+	U-Ebei wakhathazeka. “Ngeke sikwazi ukuya edolobheni. Ngeke ngikwazi ukuthola umfaniswano wami,” ecabanga.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei was worried.
-“We will not be able
-to go to town.
-I will not be able
-to get my uniform,”
-he thought.
+	U-Ebei wakhathazeka. “Asizukwazi ukuya edolophini. Asizukwazi ukuyokuthenga iyunifomu yam,” wacinga.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei is bekommerd.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -347,8 +336,9 @@ he thought.
 		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -369,17 +359,13 @@ a bit longer,” she said.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Party mense gee moed op en gaan huis toe. Maar Ebei huil. Hy wil nie teruggaan nie. Sy ma troos hom.
+	Abanye abantu baduba babuyela emakhaya. Kodwa u-Ebei wayekhala engafuni ukuya ekhaya. Kodwa umama wakhe wayemduduza ethi, “Sizolinda isikhashana eside.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Some people gave up
-and went home.
-But Ebei cried and
-did not want to go.
-His mother
-comforted him.
-“We will wait
-a bit longer,” she said.
+	Abanye abantu bajika babuyela emakhaya. Kodwa u-Ebei wayekhala engafuni ukuya ekhaya. Umama wakhe wamthuthuzela wathi, “Siza kuqhubeka silinde.”
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Party mense gee moed op en gaan huis toe. Maar Ebei huil. Hy wil nie teruggaan nie. Sy ma troos hom.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -388,8 +374,9 @@ a bit longer,” she said.
 		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -407,14 +394,13 @@ The bus was coming!
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Skielik hoor hulle ’n geraas. Hulle sien stof in die lug.
+	Masishane, bezwa umsindo. Babona izintuli emoyeni. Yayiza ibhasi!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Suddenly, they heard
-a noise.
-They saw dust
-in the air.
-The bus was coming!
+	Ngokukhawuleza beva ingxolo. Babona uthuli emoyeni. Yayisiza ibhasi!
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Skielik hoor hulle ’n geraas. Hulle sien stof in die lug.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -423,8 +409,9 @@ The bus was coming!
 		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -444,16 +431,13 @@ They did not get in.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Maar die bus is nie blou nie. Dit is nie groot nie. Die bus is rooi en klein.
+	Kodwa le bhasi yayingeluhlaza okwesibhakabhaka. Yiyingenkulu. Le bhasi yayibomvu futhi incane. Abantu ababelindile bayibuka ibhasi. Abazange bagibele.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	But this bus was not
-blue. It was not big.
-This bus was red
-and small.
-The waiting people
-looked at this bus.
-They did not get in.
+	Kodwa ibhasi yayingekho zuba. Yayingekho nkulu. Le bhasi yayibomvu yaye incinane. Abantu ababelindile bayijonga nje ibhasi. Abazange bakhwele.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Maar die bus is nie blou nie. Dit is nie groot nie. Die bus is rooi en klein.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -462,8 +446,9 @@ They did not get in.
 		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -480,13 +465,13 @@ today,” he said.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	“Klim in! Klim in!” roep die bestuurder. “Ons is vandag baie laat,” sê hy.
+	“Ngenani! “Ngenani!” kumemeza umshayeli ethi, “Sishiywe isikhathi namuhla.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	“Get in! Get in!”
-shouted the driver.
-“We are very late
-today,” he said.
+	“Ngenani! Ngenani!” wakhwaza umqhubi Waphinda wathi, “Sishiywe lixesha namhlanje.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	“Klim in! Klim in!” roep die bestuurder. “Ons is vandag baie laat,” sê hy.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -495,8 +480,9 @@ today,” he said.
 		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -514,14 +500,13 @@ red bus.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei en sy ma klim eerste in.
+	U-Ebei nomama wakhe bangena kuqala. Ngesikhashana wonke umuntu wangena ebhasini elibomvu elincane.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei and his mother
-got in first.
-Soon everyone else
-got in the small
-red bus.
+	U-Ebei nomama wakhe bangena kuqala. Ngomzuzwana wonke umntu wangena ebhasini ebomvu encinane.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei en sy ma klim eerste in.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -530,8 +515,9 @@ red bus.
 		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -548,13 +534,13 @@ the bus stop.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei kyk deur die venster na buite. Hy sien nog mense by die bushalte.
+	U-Ebei wabuka phandle ngefasitela. Wabona abanye abantu abaningi esitobhini.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei looked out the
-window. He saw
-more people at
-the bus stop.
+	U-Ebei wajonga phandle ngefestile. Wabona abanye abantu abaninzi esitophini.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei kyk deur die venster na buite. Hy sien nog mense by die bushalte.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -563,8 +549,9 @@ the bus stop.
 		<button class="btn btn-lg disabled" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -584,16 +571,13 @@ for town.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Selfs nog meer mense hardloop nader om die bus te haal. Maar hulle is te laat. Die bus is vol.
+	Abanye abantu abaningi babegijima bejahe ukugibela ibhasi. Kodwa basebeshiywe isikhathi. Ibhasi yase igcwele. Ibhasi ebomvu yahamba yaya edolobheni.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Even more people
-were running to
-catch the bus.
-But they were too late.
-The bus was full.
-The red bus left
-for town.
+	Abanye abantu abaninzi babebaleka beleqa ukukhwela ibhasi. Kodwa babesele beshiywe lixesha. Ibhasi yayisele igcwele. Ibhasi ebomvu yahamba yaya edolophini.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Selfs nog meer mense hardloop nader om die bus te haal. Maar hulle is te laat. Die bus is vol.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -602,8 +586,9 @@ for town.
 		<button class="btn btn-lg disabled" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -624,17 +609,13 @@ he added.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	“Waar is die groot blou bus?” vra Ebei se ma.
+	“Iphi ibhasi enkulu eluhlaza okwesibhakabhaka?” Kubuza umama ka Ebei. “Ifile,” kuphendula umshayeli. “Siyayilungisa, izobakhona kusasa,” kusho umshayeli.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	“Where is the big
-blue bus?” asked
-Ebei’s mother.
-“It broke down,”
-replied the driver.
-“We are fixing it.
-It will come tomorrow,”
-he added.
+	“Iphi ibhasi enkulu ezuba ngombala?” Kwabuza umama ka-Ebei. “Yonakele,” waphendula umqhubi. “Siyayilungisa, iza kuba khona ngomso,” watsho umqhubi.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	“Waar is die groot blou bus?” vra Ebei se ma.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -643,8 +624,9 @@ he added.
 		<button class="btn btn-lg disabled" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
@@ -666,18 +648,13 @@ was going to town.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Ebei gee nie om watter kleur die bus is nie. Hy gee nie om hoe groot die bus is nie.
+	U-Ebei wayengenandaba nombala webhasi. Wayengenandaba nobukhulu bebhasi. Wayejabuliswa ukuthi yayiya edolobheni.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ebei did not care
-about the colour of
-the bus.
-He did not care
-about the size of
-the bus.
-He was happy
-because this bus
-was going to town.
+	U-Ebei wayengenaxesha lombala webhasi. Wayengenaxesha lobukhulu bebhasi. Wayevuyiswa kukuba wayesiya edolophini.
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l3"><h3>
+	Ebei gee nie om watter kleur die bus is nie. Hy gee nie om hoe groot die bus is nie.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -686,22 +663,24 @@ was going to town.
 		<button class="btn btn-lg disabled" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,af','af,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Afrikaans">af</button>
-		<button onclick="switchlang('en,en','af,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
+		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
+
+        <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Written by: Mecelin Kakoro</h5>
-		<h5>Illustrated by: Mango Tree</h5>
-		<h5>Read by: Darshan Soni</h5>
-		<h5>Language: <a href="/storybooks-southafrica/stories/en">English</a></h5>
-		<h5><a href="/storybooks-southafrica/stories/en/level2">Level 2</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=12083" target="_blank">Big blue bus</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5><span class="colophon-heading">Written by:</span> Mecelin Kakoro</h5>
+		<h5><span class="colophon-heading">Illustrated by:</span> Mango Tree</h5>
+		<h5><span class="colophon-heading">Read by:</span> Darshan Soni</h5>
+		<h5><span class="colophon-heading">Language:</span> <a href="/storybooks-southafrica/stories/en">English</a></h5>
+		<h5><span class="colophon-heading">Level:</span> <a href="/storybooks-southafrica/stories/en/level2">Level 2</a></h5>
+		<h5><span class="colophon-heading">Source:</span> <a href="https://africanstorybook.org/reader.php?id=12083" target="_blank">Big blue bus</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
@@ -720,10 +699,9 @@ was going to town.
 </div>
 <div>
 <h5>Options</h5>
-	<a class="btn btn-lg" href="/storybooks-southafrica/stories/en" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
+	<a class="btn btn-lg" href="/storybooks-southafrica/stories/en" class="button">Back to stories list</a> <span class="tooltip tooltip-top" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Download PDF</a></span>
 <br><br>
 </div>
-
 
 
     </div>
