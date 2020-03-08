@@ -54,8 +54,8 @@
 		<option selected="" disabled="">Change language</option>
 		<option value="/storybooks-southafrica/stories/zu/0089">isiZulu</option>
 		<option value="/storybooks-southafrica/stories/xh/0089">isiXhosa</option>
-		<option value="/storybooks-southafrica/stories/af/0089">Afrikaans</option>
 		<option value="/storybooks-southafrica/stories/en/0089">English</option>
+		<option value="/storybooks-southafrica/stories/af/0089">Afrikaans</option>
 		<option value="/storybooks-southafrica/stories/nso/0089">Sepedi / Northern Sotho</option>
 		<option value="/storybooks-southafrica/stories/tn/0089">Setswana / Tswana</option>
 		<option value="/storybooks-southafrica/stories/st/0089">Sesotho / Southern Sotho</option>
@@ -80,9 +80,9 @@
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0089/mp3/01.mp3"></audio>
-			<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-			<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-			<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+			<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+			<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+			<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-southafrica/css/art.svg" alt="Illustrated by"></span> Jesse Pietersen</h3>
@@ -114,10 +114,10 @@
         <ul>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/bilingual/en-zu/0089_khalai-bilingual_en-zu.pdf" target="_blank">Bilingual PDF (English-isiZulu, landscape)<br><center><img src="/storybooks-southafrica/css/editions/landscape-bil1.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/bilingual/en-xh/0089_khalai-bilingual_en-xh.pdf" target="_blank">Bilingual PDF (English-isiXhosa, landscape)<br><center><img src="/storybooks-southafrica/css/editions/landscape-bil1.svg" width="100"></center></a></li>
-          <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/bilingual/en-af/0089_khalai-bilingual_en-af.pdf" target="_blank">Bilingual PDF (English-Afrikaans, landscape)<br><center><img src="/storybooks-southafrica/css/editions/landscape-bil1.svg" width="100"></center></a></li>
+          
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-bilingual/en-zu/0089_khalai-imageless-bilingual_en-zu.pdf" target="_blank">Bilingual imageless PDF (English-isiZulu, landscape)<br><center><img src="/storybooks-southafrica/css/editions/landscape-imageless-bil1.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-bilingual/en-xh/0089_khalai-imageless-bilingual_en-xh.pdf" target="_blank">Bilingual imageless PDF (English-isiXhosa, landscape)<br><center><img src="/storybooks-southafrica/css/editions/landscape-imageless-bil2.svg" width="100"></center></a></li>
-          <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-bilingual/en-af/0089_khalai-imageless-bilingual_en-af.pdf" target="_blank">Bilingual imageless PDF (English-Afrikaans, landscape)<br><center><img src="/storybooks-southafrica/css/editions/landscape-imageless-bil2.svg" width="100"></center></a></li>
+          
         </ul>
 
         <h4>Booklet PDFs (for printing)</h4>
@@ -125,12 +125,12 @@
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/booklet/en/en-0089_khalai-booklet.pdf" target="_blank">Booklet PDF (monolingual)<br><center><img src="/storybooks-southafrica/css/editions/booklet-mono.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/bilingual-booklet/en-zu/0089_khalai-bilingual_en-zu-booklet.pdf" target="_blank">Bilingual booklet PDF (English-isiZulu)<br><center><img src="/storybooks-southafrica/css/editions/booklet-bil1.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/bilingual-booklet/en-xh/0089_khalai-bilingual_en-xh-booklet.pdf" target="_blank">Bilingual booklet PDF (English-isiXhosa)<br><center><img src="/storybooks-southafrica/css/editions/booklet-bil2.svg" width="100"></center></a></li>
-          <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/bilingual-booklet/en-af/0089_khalai-bilingual_en-af-booklet.pdf" target="_blank">Bilingual booklet PDF (English-Afrikaans)<br><center><img src="/storybooks-southafrica/css/editions/booklet-bil2.svg" width="100"></center></a></li>
+          
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/wordless-booklet/0089_khalai-wordless-booklet.pdf" target="_blank">Wordless booklet<br><center><img src="/storybooks-southafrica/css/editions/booklet-wordless.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-booklet/en/en-0089_khalai-imageless-booklet.pdf" target="_blank">Imageless booklet (monolingual)<br><center><img src="/storybooks-southafrica/css/editions/booklet-imageless.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-bilingual-booklet/en-zu/0089_khalai-imageless-bilingual_en-zu-booklet.pdf" target="_blank">Bilingual imageless booklet (English-isiZulu)<br><center><img src="/storybooks-southafrica/css/editions/booklet-imageless-bil1.svg" width="100"></center></a></li>
           <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-bilingual-booklet/en-xh/0089_khalai-imageless-bilingual_en-xh-booklet.pdf" target="_blank">Bilingual imageless booklet (English-isiXhosa)<br><center><img src="/storybooks-southafrica/css/editions/booklet-imageless-bil2.svg" width="100"></center></a></li>
-          <li><a href="https://gitlab.com/global-asp/sbza-pdf/raw/master/imageless-bilingual-booklet/en-af/0089_khalai-imageless-bilingual_en-af-booklet.pdf" target="_blank">Bilingual imageless booklet (English-Afrikaans)<br><center><img src="/storybooks-southafrica/css/editions/booklet-imageless-bil2.svg" width="100"></center></a></li>
+          
         </ul>
       </div>
     </div>
@@ -169,9 +169,9 @@ language, Lubukusu.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -205,9 +205,9 @@ lots of ripe oranges.”
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -241,9 +241,9 @@ and don’t dry up.”
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -277,9 +277,9 @@ hair.”
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -315,9 +315,9 @@ read under your shade.”
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -351,9 +351,9 @@ from coming in.”
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -387,9 +387,9 @@ yet?” asks Khalai.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
@@ -425,9 +425,9 @@ orange for me!”
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,zu','zu,xh,af,en')" class="btn btn-lg lang-primary" title="Switch between English and isiZulu">zu</button>
-		<button onclick="switchlang('en,xh','zu,xh,af,en')" class="btn btn-lg lang-secondary" title="Switch between English and isiXhosa">xh</button>
-		<button onclick="switchlang('en,af','zu,xh,af,en')" class="btn btn-lg lang-tertiary" title="Switch between English and Afrikaans">af</button>
+		<button onclick="switchlang('en,zu','zu,xh,en,en')" class="btn btn-lg lang-primary" title="Switch to isiZulu">zu</button>
+		<button onclick="switchlang('en,xh','zu,xh,en,en')" class="btn btn-lg lang-secondary" title="Switch to isiXhosa">xh</button>
+		<button onclick="switchlang('en,en','zu,xh,en,en')" class="btn btn-lg lang-tertiary" title="Switch to English">en</button>
 	</div>
 </div>
 
